@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+body{ 
+    font-family: 'Merriweather', serif;
+}
+/* ----------------------------------Header------------------------------------ */
+header {
+    margin: 50px auto;
+    margin: 50px 140px 120px 140px ; /* why both side margin not 140px? I used 140px. */
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner Image.png") ;
+    background-size: cover;
+  }
+  
+  
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-p{
+    text-align: center;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 160px;
+}
+.header-h3{
+    margin: -20px 344px 177px 344px;
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    max-width: 632px;
+    text-align: center;
+    justify-content: auto;
+}
+
+
+
+/* ------------------------main------------------------ */
+
+/* ------------main section 01------------- */
+.main-sec-1{
+    display: flex;
+    flex-direction: column;
+    margin: 120px 140px;
+}
+.main-sec-1-h4{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 48px;
+}
+.main-sec-1-p{
+    margin: 0;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.main-sec-1-h5{
+    margin: 0 0 48px;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.main-sec-1-img {
+    width: 802.9px;
+    height: 500px;
+    margin: auto;   /*Here is a problem, If I don't use the margin the img shift to the left. why?*/
+}
+
+
+/* ------------------main Section 02-------------- */
+.main-sec-2{
+    display: flex;
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 120px 140px ;
+    width: 1320px;
+    height: 600px;
+
+}
+.main-section-2-items-img{
+    margin: 65px 140px;
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.main-section-2-items-h3{
+    margin: 126px auto 24px 126px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+.main-section-2-items-p{
+    margin: 0 auto 24px 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.main-section-2-items-a{
+    margin: auto auto auto 158px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+/* ------------------main Section 03-------------- */
+.main-sec-3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 255, 255, 0) 100%);
+    width: 1320px;
+    height: 482px;
+    margin:120px 140px ;
+    border-radius: 15px;
+
+}
+.main-sec-3-h4-1{
+    color: #070211;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+.main-sec-3-h4-2,.main-sec-3-h4-3{
+    color: #070211;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 3px 0 0 0;
+}
+.main-sec-3-btn{
+    display: inline-flex;
+    padding: 14px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 48px;
+    margin-left: 590px;
+    margin-right: 590px;
+    margin-bottom: 110px;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 0;
+}
+.main-sec-3-spn{
+    color: #FF0000;
+}
+
+
+
+
+
+/* ------------------main Section 04-------------- */
+.main-sec-4{
+    display: flex;
+    justify-content: space-between;
+    margin:120px 140px ;
+}
+.main-sec-4-col2-img{
+    width: 85%;
+    height: auto;
+    padding: 30px;
+    border:17px solid #F00;
+    border-radius: 50%;
+}
+.main-sec-4-col1-p1{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+.main-sec-4-col1-h3{
+    margin-top: 0;
+    margin-bottom:22px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.main-sec-4-col1-p{
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-right: 70px;
+}
+.main-sec-4-col3{
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.main-sec-4-col3-h4{
+    margin: 0;
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.main-sec-4-col3-p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+}
+.main-sec-4-col3-img{
+    margin-top: 35px;
+    width: 140px;
+    height: 140px;
+}
+
+/* ------------------main Section 05-------------- */
+.main-sec-5{
+    margin: 120px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-sec-5-h6{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.main-sec-5-h2{
+    margin-top: 16px;
+    margin-bottom: 0;
+    color:#070211;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: normal;
+}
+.main-sec-5-h2>span {
+    color: #F00;
+}
+.main-sec-5-p {   
+    margin-top: 28px; 
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 900px;
+}
+
+/* ------------------main Section 06-------------- */
+.main-sec-6{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ------------------main Section 07-------------- */
+.main-sec-7{
+    margin: 120px 140px;
+}
+.main-sec-7-info-p1{
+    margin-bottom: 16px;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.main-sec-7-info-h3{
+    margin-top: 0;
+    margin-bottom: 22px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.main-sec-7-info-p{
+    margin-top: 0;
+    margin-bottom: 48px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 850px;
+}
+
+.main-sec-7-img{
+    display: flex;
+    flex-direction: column;
+
+}
+.main-sec-7-img1{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.main-sec-7-img2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+
+/* ------------------main Section 08-------------- */
+.main-sec-8-item{
+    margin: 120px 140px;
+    border-radius: 16px;
+    padding: 80px ;
+    background-color: #FF00000D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+.main-sec-8-item>h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.main-sec-8-item>p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+}
+.main-sec-8-item>form{
+    margin-top: 48px;
+}
+.main-sec-8-item>form>input{
+    margin: 0;
+    border: none;
+    outline: none;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    width: 480px;
+    height: 72px;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.main-sec-8-item>form>button{
+    margin: 0;
+    border: none;
+    outline: none;
+    border-radius: 0 50px 50px 0;
+    width: 170px;
+    height: 72px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F00;
+}
+
+/* -----------------------Footer------------------ */
+/*------------------- Footer section 1------------- */
+footer{
+    background-color:#070211;
+}
+.container{
+    margin: 140px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+}
+.item1-text1>p{
+    width: 300px;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.phone{
+    display: inline-flex;
+    margin: 10px;
+}
+.phone>p{
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0;
+    margin: 0 0 0 10px;
+    margin-right: 200px;
+}
+.web{
+    display: flex;
+    margin: 10px;
+}
+.web>p{
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 0;
+    margin: 0 0 0 10px;
+    margin-right: 200px;
+}
+.web>img ,.phone>img {
+    margin: 0;
+}
+.item1-text1, .item1-text2{
+    margin-top: 120px;
+}
+
+
+/* ----------Footer section 2 -------------- */
+.sec2{
+    margin-top: 70px;
+    text-align: center;
+}
+.sec2>a>img{
+    margin: 24px;
+}
+/*---------- Footer section 3 ----------------*/
+.item3>p{
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 500;
+}
+.item3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+#item3{
+    margin-top: 70px;
+}
