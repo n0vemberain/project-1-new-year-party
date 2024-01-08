@@ -329,9 +329,16 @@ header {
     justify-content: space-between;
     margin: 20px;
 }
-
-
-
+.main-sec-7-img1-1,
+.main-sec-7-img2-2 {
+  transition: 0.3s;
+}
+.main-sec-7-img1-1:hover,
+.main-sec-7-img2-2:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  border-radius: 150px;
+}
 /* ------------------main Section 08-------------- */
 .main-sec-8-item{
     margin: 120px 140px;
@@ -471,3 +478,4 @@ footer{
 #item3{
     margin-top: 70px;
 }
+
