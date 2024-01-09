@@ -281,7 +281,16 @@ header {
 .main-sec-6{
     display: flex;
     justify-content: center;
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 65%,red 35%);
+    border-radius: 16px;
+    /* margin: 0 140px; */
 }
+.main-sec-6-col1>img, .main-sec-6-col2>img{
+    /* width: 70%; */
+    /* height: auto; */
+
+}
+
 
 
 /* ------------------main Section 07-------------- */
@@ -317,17 +326,17 @@ header {
 .main-sec-7-img{
     display: flex;
     flex-direction: column;
-
+    gap: 50px;
 }
 .main-sec-7-img1{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+
 }
 .main-sec-7-img2{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+
 }
 .main-sec-7-img1-1,
 .main-sec-7-img2-2 {
