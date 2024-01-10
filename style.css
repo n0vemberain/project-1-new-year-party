@@ -283,12 +283,6 @@ header {
     justify-content: center;
     background: linear-gradient(to bottom, rgb(255, 255, 255) 65%,red 35%);
     border-radius: 16px;
-    /* margin: 0 140px; */
-}
-.main-sec-6-col1>img, .main-sec-6-col2>img{
-    /* width: 70%; */
-    /* height: auto; */
-
 }
 
 
